@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1920px;
+    height: 100vh;
+    background: url(img/bg-main.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.pointer {
+    position: absolute;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: #3877EE;
+    opacity: 0.7;
+    cursor: pointer;
+    transition-duration: 0.3s;
+	transition-property: width;
+}
+
+.desc {
+    visibility: hidden;
+    margin: auto;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+    user-select: none;
+    cursor: pointer;
+    white-space: nowrap;
+    transition-duration: 0.1s;
+}
+
+.stadium,
+.museum,
+.sanatorium,
+.hotel-main {
+    background-color: #6ABF4B;
+}
+
+.house {
+    top: 27vh;;
+    left: 31vw;
+}
+
+.house-second {
+    top: 22vh;;
+    left: 71vw;
+}
+
+.stadium {
+    top: 45vh;;
+    left: 35vw;
+}
+
+.pier {
+    top: 64vh;;
+    left: 23vw;
+}
+
+.pillar {
+    top: 58vh;;
+    left: 56vw;
+}
+
+.museum {
+    top: 37vh;;
+    left: 60vw;
+}
+
+.museum-second {
+    top: 43vh;;
+    left: 74vw;
+}
+
+.sanatorium {
+    top: 73vh;;
+    left: 58vw;
+}
+
+.hotel-main {
+    top: 61vh;;
+    left: 68vw;
+}
+
+.hotel-second {
+    top: 66vh;;
+    left: 83vw;
+}
